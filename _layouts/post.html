@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="post">
+	<h2>{{ page.title }}</h2>
+	<p class="date">{{ page.date | date_to_string }}</p>
+    <div class="hyphenate">
+	{{ content }}
+    </div>
+</div>
+
+<hr />
+<footer><a href="/"><i class="icon-home"></i>Home</a></footer>
