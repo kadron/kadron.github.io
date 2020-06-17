@@ -7,6 +7,7 @@ permalink: /publications/
 [DBLP Profile](https://dblp.uni-trier.de/pers/hd/k/Kadron:Ismet_Burak)
 
 [Google Scholar](https://scholar.google.com/citations?user=mQCKsWMAAAAJ&hl=en)
+* **İsmet Burak Kadron**, Nicolás Rosner, Tevfik Bultan, _Feedback-Driven Side-Channel Analysis for Networked Applications_. Accepted to 29th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020). [PDF](/publications/AutoFeed-ISSTA2020.pdf)
 * Seemanta Saha, William Eiers, **İsmet Burak Kadron**, Tevfik Bultan, _Incremental Attack Synthesis_.  Accepted to Java PathFinder Workshop 2020.
 * Divya Gopinath,  Mengshi Zhang,  Kaiyuan Wang, **İsmet Burak Kadron**, Corina S. Păsăreanu, Sarfraz Khurshid, _Symbolic Execution for Importance Analysis and Adversarial Generation in Neural Networks_. Accepted to the 30th International Symposium on Software Reliability Engineering (ISSRE 2019).
 * Nicolás Rosner, **İsmet Burak Kadron**, Lucas Bang, Tevfik Bultan. _Profit: Detecting and Quantifying Side Channels in Networked Applications._ 26th Annual Network and Distributed System Security Symposium (NDSS 2019). [PDF](/publications/Profit-NDSS2019.pdf)
