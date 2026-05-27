@@ -1,34 +1,58 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"bultan":
+  - firstname: ["Tevfik", "T."]
+    url: https://sites.cs.ucsb.edu/~bultan/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"rosner":
+  - firstname: ["Nicolás", "Nicolas", "N."]
+    url: https://github.com/awsgaucho
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"bang":
+  - firstname: ["Lucas", "L."]
+    url: https://www.cs.hmc.edu/~bang/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"saha":
+  - firstname: ["Seemanta", "S."]
+    url: https://scholar.google.com/citations?user=PmNEMmoAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"eiers":
+  - firstname: ["William", "W."]
+    url: https://william-eiers.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"gopinath":
+  - firstname: ["Divya", "D."]
+    url: https://scholar.google.com/citations?user=FmnJtIYAAAAJ
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"pasareanu":
+  - firstname: ["Corina S.", "Corina", "C. S.", "C."]
+    url: https://www.andrew.cmu.edu/user/pcorina/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"shou":
+  - firstname: ["Chaofan", "C."]
+    url: https://scf.so/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"noller":
+  - firstname: ["Yannic", "Y."]
+    url: https://yannicnoller.github.io
+
+"padhye":
+  - firstname: ["Rohan", "R."]
+    url: https://rohan.padhye.org/
+
+"sen":
+  - firstname: ["Koushik", "K."]
+    url: https://people.eecs.berkeley.edu/~ksen/
+
+"khurshid":
+  - firstname: ["Sarfraz", "S."]
+    url: https://users.ece.utexas.edu/~khurshid/
+
+"zhang":
+  - firstname: ["Mengshi", "M."]
+
+"wang":
+  - firstname: ["Kaiyuan", "K."]
+    url: https://kaiyuanw.github.io/
+
+"yu":
+  - firstname: ["Huafeng", "H."]
+    url: https://sites.google.com/site/huafengyu/

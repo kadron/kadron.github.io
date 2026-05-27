@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-12-04 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Paper accepted at <a href="https://icfem2024.github.io">ICFEM 2024</a>: "Quantitative Symbolic Robustness Verification for Quantized Neural Networks."

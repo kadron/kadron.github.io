@@ -1,9 +1,6 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"ISSTA":
+  url: https://conf.researchr.org/series/issta
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"NDSS":
+  url: https://www.ndss-symposium.org/
