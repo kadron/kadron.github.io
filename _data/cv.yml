@@ -1,109 +1,137 @@
 cv:
   name: Burak Kadron
-  label: Research Scientist
+  headline: Software Engineer, Security Tooling | PhD in Computer Science
+  location: Santa Barbara, CA
   email: kadron.burak@gmail.com
-  location: Remote
-  image: ""
-  summary: Research Scientist at Veridise working on Web3/blockchain security, program analysis, and software testing. PhD in Computer Science from UC Santa Barbara (2022).
-
+  phone: +1 805 284 6115
+  website: https://kadron.github.io
   social_networks:
-    - network: GitHub
-      username: kadron
     - network: LinkedIn
       username: kadron
-
+    - network: GitHub
+      username: kadron
+    - network: Google Scholar
+      username: mQCKsWMAAAAJ
   sections:
-    Experience:
+    summary:
+      - Software engineer and security researcher with a PhD in program analysis and 4 years building fuzzing and constraint-solving tools for smart-contract security. Experienced in language design (parsers, interpreters, DSLs), input generation, and side-channel analysis, with publications at NDSS, ESEC/FSE, ISSTA, and ASE.
+
+    experience:
       - company: Veridise
         position: Research Scientist
-        location: Remote
-        url: https://veridise.com
         start_date: 2022-11
+        end_date: present
+        location: Remote
         highlights:
-          - "Working on OrCa, a fuzz testing tool for Solidity smart contracts."
-          - "Extended and rewrote OrCa's [V] specification language and SMT-guided fuzzing hint language."
-          - "Added support for on-chain fuzzing."
+          - Lead engineer on OrCa, Veridise's fuzzer for Solidity smart contracts (Python), used across the company's security audits
+          - "Rewrote the LTL-based [V] specification language end to end: updated ANTLR grammar, a generator that converts parse trees to an intermediate representation, and the interpreter"
+          - Designed and built from scratch a hint language that lets users specify how functions are fuzzed; user constraints are compiled to SMT-LIB and solved with Z3 to generate function inputs
+          - Added on-chain fuzzing support, enabling OrCa to test deployed contracts against live chain state
+          - Maintained OrCa's Rust EVM component, keeping it in sync with upstream dependencies including Foundry's EVM
+          - Refactored core fuzzing components, improving performance and coverage
+          - "Performed smart-contract and infrastructure security audits for 3 client protocols: ThetaNuts, Manta Network, and Stellar (Soroban core)"
 
-      - company: UC Santa Barbara
+      - company: University of California, Santa Barbara
         position: Graduate Student Researcher
-        location: Santa Barbara, CA
-        start_date: 2018-08
+        start_date: 2017-01
         end_date: 2022-09
+        location: Santa Barbara, CA
         highlights:
-          - "Developed novel methods to dynamically detect, quantify, and mitigate side-channel information leakage vulnerabilities on encrypted network traffic."
-          - "Represented the work at DARPA STAC Challenges."
-          - "Developed the TSA tool and published papers on this research."
+          - Developed techniques to detect, quantify, and mitigate side-channel information leakage in encrypted network traffic
+          - Built [TSA](https://github.com/kadron/tsa-tool), an open-source tool for network side-channel detection and quantification
+          - Published at NDSS, ISSTA, and ESEC/FSE; represented UCSB Verification Lab in DARPA's STAC (Space/Time Analysis for Cybersecurity) program
+          - Mentored one Master's and two undergraduate students on research projects, including CorbFuzz, a fuzzer for checking browser security policies (ASE 2021)
 
-      - company: NASA Ames / KBR Inc.
+      - company: NASA Ames Research Center (KBR Inc.)
         position: Research Intern
-        location: Moffett Field, CA
         start_date: 2020-06
-        end_date: 2020-08
+        end_date: 2020-09
+        location: Remote
         highlights:
-          - "Developed neural network analysis and explainability techniques."
-          - "Worked on robustness checking for Boeing's neural network for runway image analysis."
-          - "Published a case study paper on findings (VSTTE 2021)."
+          - Analyzed robustness of Boeing's runway-image neural network for autonomous center-line tracking
+          - Built a concolic analysis method that uses the Marabou verifier to check robustness to input perturbations and generate counterexample images
+          - Published findings as a case study (VSTTE 2021)
 
       - company: Carnegie Mellon University, CyLab
         position: Research Intern
-        location: Pittsburgh, PA
         start_date: 2018-06
-        end_date: 2018-08
+        end_date: 2018-09
+        location: Moffett Field, CA
         highlights:
-          - "Developed input generation techniques for side-channel analysis."
-          - "Represented CMU at DARPA STAC challenges."
-          - "Worked on neural network analysis and adversarial input generation using formal methods."
+          - Developed input generation techniques for side-channel analysis; represented CMU CyLab in DARPA STAC
+          - Worked on adversarial input generation for neural networks using symbolic execution (ISSRE 2019)
 
-      - company: UC Santa Barbara
+      - company: University of California, Santa Barbara
         position: Teaching Assistant
-        location: Santa Barbara, CA
         start_date: 2016-09
         end_date: 2018-06
+        location: Santa Barbara, CA
         highlights:
-          - "CS 130A: Data Structures and Algorithms I"
-          - "CS 130B: Data Structures and Algorithms II"
-          - "CS 162: Formal Languages and Automata"
+          - Data Structures & Algorithms I & II, Formal Languages & Automata
 
       - company: Airties Wireless Networks
-        position: Systems and Research Engineer
-        location: Istanbul, Turkey
-        start_date: 2013
-        end_date: 2015
+        position: Systems & Research Engineer (Part-time)
+        start_date: 2013-06
+        end_date: 2015-09
+        location: Istanbul, Türkiye
         highlights:
-          - "Implemented mesh networking code in C that performs handover of users between Wi-Fi access points."
+          - Implemented mesh-networking code in C supporting client handover between Wi-Fi routers
 
-    Education:
+    education:
       - institution: University of California, Santa Barbara
-        location: Santa Barbara, CA
-        url: https://cs.ucsb.edu
         area: Computer Science
-        studyType: PhD
-        start_date: 2016
-        end_date: 2022
+        degree: PhD
+        start_date: 2016-09
+        end_date: 2022-09
+        location: Santa Barbara, CA
         highlights:
           - "Dissertation: Detection, Quantification and Mitigation of Network Side Channels"
           - "Advisor: Tevfik Bultan"
-
+          - "Committee: Tevfik Bultan, Giovanni Vigna, Yu-Xiang Wang"
       - institution: Boğaziçi University
-        location: Istanbul, Turkey
-        url: https://cmpe.bogazici.edu.tr/
         area: Computer Engineering
-        studyType: B.S.
-        start_date: 2009
-        end_date: 2014
+        degree: BS
+        start_date: 2010-09
+        end_date: 2014-06
+        location: Istanbul, Türkiye
 
-    Skills:
-      - name: Programming Languages
-        level: Proficient
-        icon: fa-solid fa-code
-        keywords: "Python, Java, C++, C, Bash, Solidity"
+    skills:
+      - label: Languages
+        details: Python, Rust, Solidity, Java, C, Bash
+      - label: Security & Analysis
+        details: Fuzzing, smart-contract auditing, side-channel analysis, SMT-based constraint solving, concolic/symbolic execution
+      - label: Tools
+        details: Z3, CVC5, ANTLR, Foundry, EVM, Docker, Git
 
-      - name: Research Areas
-        level: Expert
-        icon: fa-solid fa-magnifying-glass
-        keywords: "Program Analysis, Software Security, Side-Channel Analysis, Fuzzing, Formal Methods, ML Verification, Web3 Security"
+    selected_publications:
+      - title: Fuzzing, Symbolic Execution, and Expert Guidance for Better Testing
+        authors: ["**Burak Kadron**", Yannic Noller, Rohan Padhye, Tevfik Bultan, Corina S. Păsăreanu, Koushik Sen]
+        journal: IEEE Software
+        date: 2023-01
+      - title: "TSA: A Tool to Detect and Quantify Network Side-Channels"
+        authors: ["**Burak Kadron**", Tevfik Bultan]
+        journal: ESEC/FSE 2022
+        date: 2022-11
+      - title: "CorbFuzz: Checking Browser Security Policies with Fuzzing"
+        authors: [Chaofan Shou, "**Burak Kadron**", Qi Su, Tevfik Bultan]
+        journal: ASE 2021
+        date: 2021-11
+      - title: Feedback-Driven Side-Channel Analysis for Networked Applications
+        authors: ["**Burak Kadron**", Nicolás Rosner, Tevfik Bultan]
+        journal: ISSTA 2020
+        date: 2020-07
+      - title: "Profit: Detecting and Quantifying Side Channels in Networked Applications"
+        authors: [Nicolás Rosner, "**Burak Kadron**", Lucas Bang, Tevfik Bultan]
+        journal: NDSS 2019
+        date: 2019-02
 
-    Service:
+    service:
+      - title: Reviewer
+        authors:
+          - "SPLASH/ISSTA 2026 Poster Session"
+        date: 2026
+        awarder: ACM
+
       - title: Reviewer
         authors:
           - "ACM Transactions on Software Engineering and Methodology (TOSEM)"
@@ -127,3 +155,15 @@ cv:
           - "ISSTA 2020"
         date: 2020
         awarder: ACM SIGSOFT
+
+design:
+  theme: classic
+  page: 
+    show_top_note: false
+  typography:
+    alignment: left
+  sections:
+    show_time_spans_in: [] 
+  # sb2nov
+  # engineeringresumes
+  # classic
