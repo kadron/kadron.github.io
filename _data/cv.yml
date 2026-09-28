@@ -1,22 +1,22 @@
 cv:
   name: Burak Kadron
-  headline: Software Engineer, Security Tooling | PhD in Computer Science
-  location: Santa Barbara, CA
+  label: Research Scientist
   email: kadron.burak@gmail.com
-  phone: +1 805 284 6115
-  website: https://kadron.github.io
+  location: Santa Barbara, CA
+  headline: Software Engineer, Security Tooling | PhD in Computer Science
+  image: ""
+  summary: Software engineer and security researcher with a PhD in program analysis and 4 years building fuzzing and constraint-solving tools for smart-contract security. Experienced in language design (parsers, interpreters, DSLs), input generation, and side-channel analysis, with publications at NDSS, ESEC/FSE, ISSTA, and ASE.
+
   social_networks:
-    - network: LinkedIn
-      username: kadron
     - network: GitHub
+      username: kadron
+    - network: LinkedIn
       username: kadron
     - network: Google Scholar
       username: mQCKsWMAAAAJ
-  sections:
-    summary:
-      - Software engineer and security researcher with a PhD in program analysis and 4 years building fuzzing and constraint-solving tools for smart-contract security. Experienced in language design (parsers, interpreters, DSLs), input generation, and side-channel analysis, with publications at NDSS, ESEC/FSE, ISSTA, and ASE.
 
-    experience:
+  sections:
+    Experience:
       - company: Veridise
         position: Research Scientist
         start_date: 2022-11
@@ -77,93 +77,52 @@ cv:
         highlights:
           - Implemented mesh-networking code in C supporting client handover between Wi-Fi routers
 
-    education:
+    Education:
       - institution: University of California, Santa Barbara
+        location: Santa Barbara, CA
+        url: https://cs.ucsb.edu
         area: Computer Science
-        degree: PhD
+        studyType: PhD
         start_date: 2016-09
         end_date: 2022-09
-        location: Santa Barbara, CA
         highlights:
           - "Dissertation: Detection, Quantification and Mitigation of Network Side Channels"
           - "Advisor: Tevfik Bultan"
-          - "Committee: Tevfik Bultan, Giovanni Vigna, Yu-Xiang Wang"
+
       - institution: Boğaziçi University
+        location: Istanbul, Turkey
+        url: https://cmpe.bogazici.edu.tr/
         area: Computer Engineering
-        degree: BS
+        studyType: B.S.
         start_date: 2010-09
         end_date: 2014-06
-        location: Istanbul, Türkiye
 
-    skills:
-      - label: Languages
-        details: Python, Rust, Solidity, Java, C, Bash
-      - label: Security & Analysis
-        details: Fuzzing, smart-contract auditing, side-channel analysis, SMT-based constraint solving, concolic/symbolic execution
-      - label: Tools
-        details: Z3, CVC5, ANTLR, Foundry, EVM, Docker, Git
+    Skills:
+      - name: Programming Languages
+        level: Proficient
+        icon: fa-solid fa-code
+        keywords: "Python, Rust, Solidity, Java, C, Bash"
 
-    selected_publications:
-      - title: Fuzzing, Symbolic Execution, and Expert Guidance for Better Testing
-        authors: ["**Burak Kadron**", Yannic Noller, Rohan Padhye, Tevfik Bultan, Corina S. Păsăreanu, Koushik Sen]
-        journal: IEEE Software
-        date: 2023-01
-      - title: "TSA: A Tool to Detect and Quantify Network Side-Channels"
-        authors: ["**Burak Kadron**", Tevfik Bultan]
-        journal: ESEC/FSE 2022
-        date: 2022-11
-      - title: "CorbFuzz: Checking Browser Security Policies with Fuzzing"
-        authors: [Chaofan Shou, "**Burak Kadron**", Qi Su, Tevfik Bultan]
-        journal: ASE 2021
-        date: 2021-11
-      - title: Feedback-Driven Side-Channel Analysis for Networked Applications
-        authors: ["**Burak Kadron**", Nicolás Rosner, Tevfik Bultan]
-        journal: ISSTA 2020
-        date: 2020-07
-      - title: "Profit: Detecting and Quantifying Side Channels in Networked Applications"
-        authors: [Nicolás Rosner, "**Burak Kadron**", Lucas Bang, Tevfik Bultan]
-        journal: NDSS 2019
-        date: 2019-02
+      - name: Research Areas
+        level: Expert
+        icon: fa-solid fa-magnifying-glass
+        keywords: "Fuzzing, Formal Methods, Smart-Contract Auditing, Side-Channel Analysis, SMT-based Constraint Solving, Symbolic Execution"
+      
+      - name: Tools
+        level: Proficient
+        icon: fa-solid fa-code
+        keywords: "Z3, CVC5, ANTLR, Foundry, EVM, Docker, Git"
+      
+    # "Service" is not one of the section titles the al_folio_cv plugin renders with a
+    # dedicated template (Education, Awards, Publications, Skills, Languages, Interests,
+    # Certificates, Projects, References, Experience/Volunteer), so it falls back to the
+    # generic renderer, which only outputs entries using the `bullet:` (or
+    # `label:`/`details:`) shape. Entries using title/authors/date/awarder render empty,
+    # hence the bullet form below. Markdown is supported inside `bullet`.
+    Service:
+      - bullet: "**Reviewer** — ACM SPLASH/ISSTA 2026 Poster Session, (2026)"
+      - bullet: "**Reviewer** — ACM Transactions on Software Engineering and Methodology - TOSEM 2024, (2024)"
+      - bullet: "**President, Graduate Student Executive Committee** — UCSB CS Department, UC Santa Barbara (2022)"
+      - bullet: "**Treasurer, Graduate Student Executive Committee** — UCSB CS Department, UC Santa Barbara (2020)"
+      - bullet: "**Local Arrangements and Finance Chair** — ISSTA 2020 (2020)"
 
-    service:
-      - title: Reviewer
-        authors:
-          - "SPLASH/ISSTA 2026 Poster Session"
-        date: 2026
-        awarder: ACM
-
-      - title: Reviewer
-        authors:
-          - "ACM Transactions on Software Engineering and Methodology (TOSEM)"
-        date: 2024
-        awarder: ACM
-
-      - title: President, Graduate Student Executive Committee
-        authors:
-          - "UCSB CS Department"
-        date: 2022
-        awarder: UC Santa Barbara
-
-      - title: Treasurer, Graduate Student Executive Committee
-        authors:
-          - "UCSB CS Department"
-        date: 2020
-        awarder: UC Santa Barbara
-
-      - title: Local Arrangements and Finance Chair
-        authors:
-          - "ISSTA 2020"
-        date: 2020
-        awarder: ACM SIGSOFT
-
-design:
-  theme: classic
-  page: 
-    show_top_note: false
-  typography:
-    alignment: left
-  sections:
-    show_time_spans_in: [] 
-  # sb2nov
-  # engineeringresumes
-  # classic
